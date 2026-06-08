@@ -23,20 +23,25 @@ A full-stack, decoupled AI web application that leverages the Google Gemini 2.5 
 
 ### 1. Backend Setup
 Navigate to the `backend` directory and set up the Python environment:
-```bash
-cd backend
-python -m venv venv
-# Activate on Windows: venv\Scripts\activate
-# Activate on Mac/Linux: source venv/bin/activate
 
-pip install -r requirements.txt
+    cd backend
+    python -m venv venv
+    # Activate on Windows: venv\Scripts\activate
+    # Activate on Mac/Linux: source venv/bin/activate
+    
+    pip install -r requirements.txt
 
-Create a .env file in the backend folder and add your key:
-GEMINI_API_KEY=your_api_key_here
+Create a `.env` file in the `backend` folder and add your key:
 
-Start the server: python app.py
+    GEMINI_API_KEY=your_api_key_here
+
+Start the server:
+
+    python app.py
 
 ### 2. Frontend Setup
-cd frontend
-npm install
-npm run dev
+Open a new terminal, navigate to the `frontend` directory, and start the application:
+
+    cd frontend
+    npm install
+    npm run dev
